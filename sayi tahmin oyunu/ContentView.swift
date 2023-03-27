@@ -29,7 +29,7 @@ struct ContentView: View {
         case .start:
             return ""
         case .lose:
-            return "Maalesef \(maxHamle) hamlede sayıyı tahmin edemediniz :("
+            return "Maalesef \(maxHamle) hamlede sayıyı tahmin edemediniz. Sayı \(randomNum) :("
         case .won:
             return "**Tebrikler, sayıyı doğru tahmin ettiniz!**"
         case .bigger:
@@ -72,20 +72,18 @@ struct ContentView: View {
                             .font(.body)
                             .fontWeight(.regular)
                             .foregroundColor(.blue)
-                        if (state == .start){
+                            .padding(.bottom)
                             Text("0 ile 1000 arasında bir sayı tahmin etmeye çalış")
                                 .font(.body)
                                 .fontWeight(.regular)
                                 .foregroundColor(.blue)
-                            
-                        }
-                        
                     }.padding(.bottom)
                 }
                 VStack {
                     TextField("Bir Sayı Giriniz", text: $text)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .disabled(isGameEnd)
+                        .keyboardType(.numberPad)
                         .onSubmit {
                             validate()
                         }.padding(.leading, 29).padding(.trailing, 21)
@@ -116,14 +114,13 @@ struct ContentView: View {
             state = .lose
             return
         }
-        
         guard let num = Int(text) else {
             return;
         }
         
         hamle-=1
         sayi = num
-        
+        text = ""
         if (num == randomNum) {
             state = .won
         } else if (num > randomNum) {
