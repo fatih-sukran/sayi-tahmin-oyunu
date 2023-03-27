@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6978160929D19F8800EFD6B1 /* screentshots in Resources */ = {isa = PBXBuildFile; fileRef = 6978160829D19F8700EFD6B1 /* screentshots */; };
 		69B2560229CD5D9E00F331A3 /* sayi_tahmin_oyunuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B2560129CD5D9E00F331A3 /* sayi_tahmin_oyunuApp.swift */; };
 		69B2560429CD5D9E00F331A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B2560329CD5D9E00F331A3 /* ContentView.swift */; };
 		69B2560629CD5DA200F331A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B2560529CD5DA200F331A3 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6978160829D19F8700EFD6B1 /* screentshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = screentshots; sourceTree = "<group>"; };
 		69B255FE29CD5D9E00F331A3 /* sayi tahmin oyunu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sayi tahmin oyunu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B2560129CD5D9E00F331A3 /* sayi_tahmin_oyunuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sayi_tahmin_oyunuApp.swift; sourceTree = "<group>"; };
 		69B2560329CD5D9E00F331A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		69B255F529CD5D9E00F331A3 = {
 			isa = PBXGroup;
 			children = (
+				6978160829D19F8700EFD6B1 /* screentshots */,
 				69B2560029CD5D9E00F331A3 /* sayi tahmin oyunu */,
 				69B2561129CD5DA200F331A3 /* sayi tahmin oyunuTests */,
 				69B2561B29CD5DA300F331A3 /* sayi tahmin oyunuUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6978160929D19F8800EFD6B1 /* screentshots in Resources */,
 				69B2560929CD5DA200F331A3 /* Preview Assets.xcassets in Resources */,
 				69B2560629CD5DA200F331A3 /* Assets.xcassets in Resources */,
 			);
