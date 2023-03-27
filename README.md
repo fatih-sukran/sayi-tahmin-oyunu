@@ -25,10 +25,11 @@ Bu uygulama, 0 ile 1000 arasında rastgele bir sayı tutar ve kullanıcının bu
 - SwiftUI
 
 ## Ekran Görüntüleri
-
-![Ekran Görüntüsü 1](screentshots/Screenshot1.png)
-![Ekran Görüntüsü 2](screenshots/Screenshot2.png)
-![Ekran Görüntüsü 3](screenshots/Screenshot3.png)
+<p float="center">
+  <img src="screenshots/Screenshot1.png" width="33%" />
+  <img src="screenshots/Screenshot2.png" width="33%" /> 
+  <img src="screenshots/Screenshot3.png" width="33%" />
+</p>
 
 ## Geliştirici
 
